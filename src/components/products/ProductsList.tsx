@@ -1,6 +1,7 @@
 import { useFetchProducts } from '../../hooks/products/useFetchProducts';
 import { Spinner } from '../Spinner';
 import { ProductListRow } from './ProductListRow';
+import React from "react";
 
 export const ProductsList = () => {
   const { data: products, loading, error } = useFetchProducts();

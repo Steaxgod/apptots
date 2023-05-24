@@ -2,6 +2,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useFetchProduct } from '../../hooks/products/useFetchProduct';
 import { Spinner } from '../Spinner';
 import { Card } from '../Card';
+import React from "react";
 
 export const ProductDetail = () => {
   const navigate = useNavigate();
